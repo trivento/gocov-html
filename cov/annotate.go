@@ -22,13 +22,14 @@ package cov
 
 import (
 	"fmt"
-	"github.com/axw/gocov"
 	"go/token"
 	"html"
 	"io"
 	"io/ioutil"
 	"os"
 	"strings"
+
+	"github.com/trivento/gocov"
 )
 
 const (

@@ -23,7 +23,6 @@ package cov
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/axw/gocov"
 	"io"
 	"io/ioutil"
 	"os"
@@ -31,6 +30,8 @@ import (
 	"sort"
 	"text/tabwriter"
 	"time"
+
+	"github.com/trivento/gocov"
 )
 
 func unmarshalJson(data []byte) (packages []*gocov.Package, err error) {

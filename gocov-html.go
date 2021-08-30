@@ -22,10 +22,11 @@ package main
 
 import (
 	"flag"
-	"github.com/matm/gocov-html/cov"
 	"io"
 	"log"
 	"os"
+
+	"github.com/trivento/gocov-html/cov"
 )
 
 func main() {
